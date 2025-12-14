@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "argglitch",
+  "version": "1.0.0",
+  "name": "ARG Glitch Mod",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "yourpackage.ArgRenderMod"
+    ]
+  },
+  "mixins": [
+    "arg.mixins.json"
+  ]
+}
